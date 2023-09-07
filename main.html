@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Image Gallery</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Optional custom CSS styles can be added here */
+        /* Set image height and width to 100px */
+        .movie-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- First Row -->
+            <div class="col-sm-1">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20" alt="Movie 1" class="movie-img">
+            </div>
+            <!-- Repeat this column 11 more times for a total of 12 columns -->
+        </div>
+        <div class="row">
+            <!-- Second Row -->
+            <div class="col-sm-2">
+                <img src="https://i.etsystatic.com/13367669/r/il/db21fd/2198543930/il_570xN.2198543930_4qne.jpg" alt="Movie 2" class="movie-img">
+            </div>
+            <!-- Repeat this column 5 more times for a total of 6 columns -->
+        </div>
+        <div class="row">
+            <!-- Third Row -->
+            <div class="col-sm-4">
+                <img src="https://www.ubuy.co.in/productimg/?image=aHR0cHM6Ly9pbWFnZXMtY2RuLnVidXkuY28uaW4vNjNlZjBhMzk3ZjFkNzgxYmVhMGEyNDY0LXN0YXItd2Fycy1yb2d1ZS1vbmUtbW92aWUtcG9zdGVyLmpwZw.jpg" alt="Movie 3" class="movie-img">
+            </div>
+            <!-- Repeat this column 2 more times for a total of 3 columns -->
+        </div>
+        <div class="row">
+            <!-- Fourth Row -->
+            <div class="col-sm-12">
+                <img src="https://img.freepik.com/free-vector/professional-suspense-movie-poster_742173-3470.jpg" alt="Movie 4" class="movie-img">
+            </div>
+        </div>
+    </div>
 
+    <!-- Bootstrap 5 JS and Popper.js (for Bootstrap's JavaScript components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
